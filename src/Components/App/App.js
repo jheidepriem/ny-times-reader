@@ -1,5 +1,6 @@
 import { fetchData } from '../../ApiCalls/Api';
 import { useState, useEffect } from 'react';
+import Home from '../Home/Home'
 import "../App/App.css"
 
 
@@ -12,7 +13,7 @@ const App = () => {
     setLoading(true);
     fetchData()
       .then((data) => { 
-      articleData(data.results)
+      setArticleData(data.results)
         setLoading(false);
       })
       .catch((error) => setError(error));
@@ -22,6 +23,8 @@ const App = () => {
     <section className="app-container">
       <header className="home-title">
         <h1>New York Times Reader</h1>
+        <Home allArticles={articleData}/>
+
       </header>
     </section>
   );
