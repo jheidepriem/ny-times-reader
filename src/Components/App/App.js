@@ -19,7 +19,7 @@ const App = () => {
   }, []);
 
   return (
-    <section className="article-container">
+    <section className="app-container">
       <header className="home-title">
         <h1>New York Times Reader</h1>
       </header>
