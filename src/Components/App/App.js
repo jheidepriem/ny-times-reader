@@ -1,5 +1,7 @@
-import { fetchData } from '../../../ApiCalls/Api';
-import './App.css';
+import { fetchData } from '../../ApiCalls/Api';
+import { useState, useEffect } from 'react';
+import "../App/App.css"
+
 
 const App = () => {
   const [articleData, setArticleData] = useState([]);
@@ -9,8 +11,8 @@ const App = () => {
   useEffect(() => {
     setLoading(true);
     fetchData()
-      .then((data) => {
-        setLibraryData(data);
+      .then((data) => { 
+      articleData(data.results)
         setLoading(false);
       })
       .catch((error) => setError(error));
