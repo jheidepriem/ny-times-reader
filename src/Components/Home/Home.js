@@ -14,6 +14,7 @@ const Home = ({ allArticles }) => {
         abstract={article.abstract}
         url={article.url}
         image={article.multimedia[0].url}
+        published_date={article.published_date}
       />
     );
   });
