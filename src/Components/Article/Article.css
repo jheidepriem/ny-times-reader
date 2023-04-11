@@ -1,0 +1,10 @@
+.article-title {
+  order: 2px black;
+  border-radius: 4px;
+  background-color: grey;
+  height: 10vh;
+  width: 75vw;
+  margin: 9px;
+  text-align: center;
+  padding: 3px;
+}
