@@ -6,11 +6,12 @@ const Home = ({ allArticles }) => {
     return (
       <Article
         title={article.title}
+        section={article.section}
+        subsection={article.subsection}
         byline={article.byline}
-        id={article.id}
-        key={article.id}
+        id={article.uri}
+        key={article.uri}
         abstract={article.abstract}
-        uri={article.uri}
         url={article.url}
         image={article.multimedia[0].url}
       />
