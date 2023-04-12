@@ -7,10 +7,9 @@ const Error = () => {
     <section className="error-page">
       <div className="logo-button-container">
         <Link to="/">
-          <img alt="Click to return home" className="x-button" src={Logo}></img>
+          <img alt="Click to return home" className="nyt-button" src={Logo}></img>
         </Link>
       </div>
-      <img alt="A sad cauliflower" src={sadCauli} className="error-image" />
       <h3 className="error-component-message">
         404... Oh no! <br /> Please click the logo to go back!
       </h3>
