@@ -1,0 +1,47 @@
+{
+  "articles": {
+  "title": "E.P.A. Lays Out Rules to Turbocharge Sales of Electric Cars and Trucks",
+  "byline": "By Coral Davenport",
+  "published_date": "2023-04-12T05:00:16-04:00",
+  "section": "climate",
+  "subsection": "",
+  "abstract": "The Biden administration is proposing rules to ensure that two-thirds of new cars and a quarter of new heavy trucks sold in the U.S. by 2032 are all-electric.",
+  "url": "https://www.nytimes.com/2023/04/12/climate/biden-electric-cars-epa.html",
+  "short_url": "https://nyti.ms/3oaDjxJ",
+  "multimedia": [
+    {
+      "url": "https://static01.nyt.com/images/...",
+      "format": "Standard Thumbnail",
+      "height": 75,
+      "width": 75,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "The Tesla Model S, one of the most popular all-electric cars on the market.",
+      "credit": "Gabby Jones for The New York Times"
+    }
+   
+  ],
+  "des_facet": [
+    "Global Warming",
+    "Greenhouse Gas Emissions",
+    "Electric and Hybrid Vehicles",
+    "Regulation and Deregulation of Industry",
+    "Automobiles",
+    "Clean Air Act",
+    "Trucks and Trucking"
+  ],
+  "org_facet": [
+    "Alliance for Automotive Innovation",
+    "Environmental Protection Agency"
+  ],
+"  per_facet": [
+    "Regan, Michael S (1976- )"
+  ],
+  "geo_facet": [],
+  "item_type": "Article",
+  "kicker": "",
+  "material_type_facet": "",
+ " uri": "nyt://article/a8cfcb0c-cde1-576c-8486-0092c636ab49",
+  "updated_date": "2023-04-12T11:00:15-04:00"
+  }
+}
