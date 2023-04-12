@@ -1,0 +1,31 @@
+.article-image {
+  width: 55vw;
+}
+
+.main-article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.article-deets-title {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.article-details-container {
+  padding-bottom: 25px;
+}
