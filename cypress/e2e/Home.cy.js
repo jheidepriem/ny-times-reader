@@ -22,7 +22,6 @@ describe("home page", () => {
     cy.get('[href="/article/E.P.A. Lays Out Rules to Turbocharge Sales of Electric Cars and Trucks"] > .article-title').click()
     cy.url().should('include', 'http://localhost:3000/article/E.P.A.%20Lays%20Out%20Rules%20to%20Turbocharge%20Sales%20of%20Electric%20Cars%20and%20Trucks')
   })
-
 });
 
  
