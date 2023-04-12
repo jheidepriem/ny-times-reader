@@ -1,5 +1,9 @@
-
-.home-title {
+.home-section {
+  background-image: url('../../Images/news.png');
   text-align: center;
   padding-top: 10px;
+}
+
+.home-title {
+  font-size: 36px;
 }

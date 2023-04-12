@@ -1,0 +1,50 @@
+.button-container {
+  padding-top: 33px;
+  width: 100vw;
+  height: 4vh;
+}
+
+.article-image {
+  width: 55vw;
+}
+
+.main-article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.article-deets-title {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+.article-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.article-details-container {
+  padding-bottom: 25px;
+  width: 60vw;
+}
+
+.logo-button {
+  height: 5vh;
+}
+
+button {
+  border-color: none;
+}
+
