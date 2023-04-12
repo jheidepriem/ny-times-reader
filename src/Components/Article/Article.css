@@ -1,10 +1,21 @@
 .article-title {
-  order: 2px black;
   border-radius: 4px;
   background-color: grey;
-  height: 10vh;
+  height: 16vh;
   width: 75vw;
-  margin: 9px;
+  margin: 15px;
   text-align: center;
-  padding: 3px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  -webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.58);
+  box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.58);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
