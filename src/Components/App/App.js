@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import { useState, useEffect, Fragment } from "react";
 import Home from "../Home/Home";
 import Form from "../Form/Form";
+import Error from "../Error/Error";
 import "../App/App.css";
 import ArticleDeets from "../ArticleDeets/ArticleDeets";
 
@@ -43,6 +44,7 @@ const App = () => {
                 <Form filterArticles={filterArticles} />
                 <Home allArticles={filteredData} />
                 {loading && <h1>Loading...</h1>}
+                {error && <Error />}
               </section>
             </Fragment>
           );
@@ -62,7 +64,10 @@ const App = () => {
             />
           );
         }}
-      ></Route>
+      />
+      <Route path="*">
+        <Error />
+      </Route>
     </main>
   );
 };
