@@ -1,26 +1,25 @@
 import "../ArticleDeets/ArticleDeets.css";
 import { Link } from "react-router-dom";
 
-const ArticleDeets = ({ articleData }) => {
+const ArticleDeets = ({ articleDataDetails }) => {
+
   return (
     <main className="main-article-container">
-      <h1>{articleData.title}</h1>
-      <p>{articleData.byline}</p>
+      <h1 className="article-deets-title">{articleDataDetails.title}</h1>
+      <p>{articleDataDetails.byline}</p>
       <img
         className="article-image"
-        src={articleData.multimedia[0].url}
-        alt="article image"
+        src={articleDataDetails.multimedia[0].url}
+        alt="article"
       />
       <section className="article-details-container">
-        <p>{articleData.published_date}</p>
-        <p>{articleData.section}</p>
-        <p>{articleData.abstract}</p>
-        <Link
+        <p>{articleDataDetails.abstract}</p>
+        <Link className="article-link"
             to={{
-              pathname:{articleData.url},
+              pathname:` ${articleDataDetails.url}`,
             }}
             target="_blank"
-          >
+          > Visit the New York Times Full Article
           </Link>
       </section>
     </main>
