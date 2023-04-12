@@ -1,5 +1,5 @@
 import { fetchData } from "../../ApiCalls/Api";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { useState, useEffect, Fragment } from "react";
 import Home from "../Home/Home";
 import Form from "../Form/Form";
@@ -33,41 +33,43 @@ const App = () => {
 
   return (
     <main className="App">
-      <Route
-        exact
-        path="/"
-        render={() => {
-          return (
-            <Fragment>
-              <section className="home-section">
-                <h1 className="home-title">New York Times Reader</h1>
-                <Form filterArticles={filterArticles} />
-                <Home allArticles={filteredData} />
-                {loading && <h1>Loading...</h1>}
-                {error && <Error />}
-              </section>
-            </Fragment>
-          );
-        }}
-      />
-      <Route
-        exact
-        path="/article/:id"
-        render={({ match }) => {
-          const findArticle = articleData.find(
-            (article) => article.title === match.params.id
-          );
-          return (
-            <ArticleDeets
-              articleDataDetails={findArticle}
-              id={match.params.id}
-            />
-          );
-        }}
-      />
-      <Route path="*">
-        <Error />
-      </Route>
+      <Switch>
+        <Route
+          exact
+          path="/"
+          render={() => {
+            return (
+              <Fragment>
+                <section className="home-section">
+                  <h1 className="home-title">New York Times Reader</h1>
+                  <Form filterArticles={filterArticles} />
+                  <Home allArticles={filteredData} />
+                  {loading && <h1>Loading...</h1>}
+                  {error && <Error />}
+                </section>
+              </Fragment>
+            );
+          }}
+        />
+        <Route
+          exact
+          path="/article/:id"
+          render={({ match }) => {
+            const findArticle = articleData.find(
+              (article) => article.title === match.params.id
+            );
+            return (
+              <ArticleDeets
+                articleDataDetails={findArticle}
+                id={match.params.id}
+              />
+            );
+          }}
+        />
+        <Route path="*">
+          <Error />
+        </Route>
+      </Switch>
     </main>
   );
 };
