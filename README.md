@@ -1,6 +1,6 @@
 
 
-[Visit NYT Reader Here](https://garden-grow-fe.vercel.app/)
+Visit NYT Reader 
 
 ## Table of Contents
 
@@ -73,7 +73,7 @@ Planning Document -
 
 Deployment
 
-- Successfully deployed through Vercel for the front end [HERE]()
+- Successfully deployed through Vercel for the front end [HERE](ny-times-reader.vercel.app)
 
 Testing
 - Successfully implemented 80-90% test coverage for all components.
