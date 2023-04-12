@@ -1,3 +1,9 @@
+.button-container {
+  padding-top: 33px;
+  width: 100vw;
+  height: 4vh;
+}
+
 .article-image {
   width: 55vw;
 }
@@ -12,10 +18,13 @@
 .article-deets-title {
   font-size: 25px;
   margin-top: 40px;
+  margin-bottom: 2px;
 }
 
 .article-link {
   text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 
 a:link {
@@ -29,3 +38,12 @@ a:visited {
 .article-details-container {
   padding-bottom: 25px;
 }
+
+.logo-button {
+  height: 5vh;
+}
+
+button {
+  border-color: none;
+}
+
