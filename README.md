@@ -71,10 +71,6 @@ Planning Document -
 
 
 
-Deployment
-
-- Successfully deployed through Vercel for the front end [HERE](ny-times-reader.vercel.app)
-
 Testing
 - Successfully implemented 80-90% test coverage for all components.
 
