@@ -76,6 +76,9 @@ Testing
 
 Future features would include a navigation bar to sort articles by subject.
 
+## Deployment
+[HERE](https://vercel.com/jheidepriem/ny-times-reader/JAgHnp7mFBUBw4WRSCU6APPxYq42)
+
 ## Authors
 
 <table>
