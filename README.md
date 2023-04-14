@@ -61,6 +61,8 @@ New York Times Reader is an App that gives users all of the top articles of the 
 ## Preview
 
 Planning Document -
+![Screenshot 2023-04-14 at 10 28 04 AM (2)](https://user-images.githubusercontent.com/108428451/232087813-c508ff97-232f-439e-863b-e858b4dbc7a8.png)
+
 ![Screenshot 2023-04-11 at 11 16 28 AM (2)](https://user-images.githubusercontent.com/108428451/231225723-a8e1b485-3993-43c9-9bd5-2e834a22be02.png)
 
 ![Screenshot 2023-04-12 at 5 41 55 PM (2)](https://user-images.githubusercontent.com/108428451/231602326-68fe5d46-b8a2-4a10-bada-7b681bdbebd2.png)
